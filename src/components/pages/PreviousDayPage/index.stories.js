@@ -1,9 +1,9 @@
 // https://github.com/diegohaz/arc/wiki/Storybook
 import React from 'react'
 import { storiesOf } from '@storybook/react'
-import { HomePage } from 'components'
+import PreviousDayPage from './index'
 
-storiesOf('HomePage', module)
+storiesOf('PreviousDayPage', module)
   .add('default', () => (
-    <HomePage />
+    <PreviousDayPage />
   ))
